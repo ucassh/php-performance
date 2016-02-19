@@ -1,0 +1,17 @@
+{
+  "name": "ucassh/php-performance",
+  "type": "project",
+  "description": "Comparison of php functions and programming techniques",
+  "autoload": {
+    "psr-0": { "": "src/" }
+  },
+  "repositories":[
+    {
+      "type": "vcs",
+      "url": "https://github.com/ucassh/phpperf.git"
+    }
+  ],
+  "require": {
+    "ucassh/phpperf": "dev-master"
+  }
+}
